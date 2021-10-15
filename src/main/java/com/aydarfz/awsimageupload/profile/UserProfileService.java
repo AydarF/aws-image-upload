@@ -20,6 +20,7 @@ public class UserProfileService {
         return userProfileDataAccessService.getUserProfiles();
     }
 
-    public void uploadUserProfileImage(UUID userProfileId, MultipartFile file) {
+    void uploadUserProfileImage(UUID userProfileId, MultipartFile file) {
+
     }
 }
