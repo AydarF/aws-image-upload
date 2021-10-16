@@ -20,9 +20,12 @@ const UserProfiles = () => {
   return userProfiles.map((userProfile, index) => {
     return (
       <div key={index}>
-        <Dropzone />
+        <br />
+        <br />
         <h1>{userProfile.userName}</h1>
         <p>{userProfile.userProfileId}</p>
+        <Dropzone />
+        <br />
       </div>
     )
   })
