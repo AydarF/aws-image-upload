@@ -24,7 +24,8 @@ function Dropzone({userProfileId}) {
     }).catch(err => {
       console.log(err);
     });
-  }, [])
+  }, [userProfileId])
+
   const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
 
   return (
